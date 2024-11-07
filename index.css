@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.maindiv{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 179, 26);
+    /*background-image: url(https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(33, 33, 33);
+    border: 3px, rgba(0, 0, 0, 0), solid;
+    border-radius: 20px;
+    align-items: center;
+}
+.history{
+    position: relative;
+    top: 5%;
+  border-radius: 8px;
+  background-color: rgb(33, 33, 33);
+}
+.disp{
+    max-height: 100%;
+    padding-right: 15px;
+    padding-bottom: 10px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.screen {
+    display: flex;
+    height: 20%;
+    width: 90%;
+    background-color: rgb(59, 58, 59);
+    border: 0.5px,solid,rgb(0, 0, 0);
+    border-radius: 6px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 26px;
+    gap: 30px;
+    position: relative;
+    top: 4%;
+    color: rgb(6, 192, 6);
+}
+.content{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-self: end;
+    position: relative;
+    top: 35px;
+}
+.numpad{
+    height: 100%;
+    width: 75%;
+}
+.opts{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    right: 20px;
+}
+.row{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.button{
+    padding: 25px;
+    border: 1px, black, solid;
+    border-radius: 50%;
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+div #btn0{
+    order: 2;
+}
+div #btnR{
+    order: 1;
+}
+div #btnEq{
+    order: 3;
+}
+.operator,
+.operators{
+    padding: 25px;
+    border: 1px, black, solid;
+    border-radius: 50%;
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    border: 1px,white,solid;
+}
+.operator{
+    background-color: green;
+    font-weight: bolder;
+}
+.button:hover {
+	background: #bdbdbd;
+	color: #212121;
+}
+.operators:hover,.operator:hover{
+    background-color: cyan;
+    color: black;
+}
+button {
+    font-size: 1.325rem;
+    padding: 1rem 0;
+    font-weight: 500;
+    background: #616161;
+    border: 0px solid transparent;
+    outline: none;
+    text-decoration: none;
+    border-radius: 100%;
+    box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.5);
+    color: #DFDFDF;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
